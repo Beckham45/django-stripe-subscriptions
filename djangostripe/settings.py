@@ -125,10 +125,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [Path(BASE_DIR).joinpath('static')]
 
-STRIPE_PUBLISHABLE_KEY = '<your test publishable key here>'
-STRIPE_SECRET_KEY = '<your test secret key here>'
-STRIPE_PRICE_ID = '<your price api id here>'
-STRIPE_ENDPOINT_SECRET = '<your endpoint secret here>'
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51JLu9dECjfuy5kPzoHAgGmS0KnWexwqXn82VDWr91HhJuShCHjnOHiKCu5udJSVdYGqp6sDz98A1mPqlSvsZeAbC00KddkQNx0'
+STRIPE_SECRET_KEY = 'sk_test_51JLu9dECjfuy5kPz1aOdFA48wu5foHP4JLmgNevudWpVvqKwSgi1aKXBplUnhECJc9Vd7vigEO1L1VTVWede7OiN00K181mSxS'
+STRIPE_PRICE_ID = 'price_1JLufRECjfuy5kPztUzgo6bi'
+STRIPE_ENDPOINT_SECRET = 'your endpoint secret here'
 
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
